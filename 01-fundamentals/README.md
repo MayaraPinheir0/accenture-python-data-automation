@@ -1,11 +1,28 @@
-This module covers the building blocks of the language. To understand Python, we follow this logical flow:
 
-1. **Variables**: Storing information.
-2. **Types**: Understanding what the information is (text vs. numbers).
-3. **Logic**: Making decisions based on data.
-4. **Repetition**: Automating tasks with loops.
-5. **Functions**: Creating reusable tools. 
 
+## 🧠 Arquitetura do Conhecimento (Fundamentals)
+
+A estrutura abaixo reflete uma progressão lógica de aprendizado, organizada para garantir a compreensão da **Carga Cognitiva** necessária para dominar o Python.
+
+### 📍 Fase 01: Os Pilares
+
+| Módulo | Conceito Chave | Arquivo | Conteúdo Técnico |
+| :--- | :--- | :--- | :--- |
+| **I. Atoms** | Armazenamento de Info | `01_syntax_and_variables.py` | Sintaxe, semântica de variáveis, `print()` e `input()`. |
+| **II. Data Types** | Natureza do Dado | `02_data_types.py` | Casting de tipos, Strings, Integers e Floats. |
+| **III. Collections** | Agrupamento | `03_lists_and_sequences.py` | Listas, manipulação de índices e métodos (append/remove). |
+| **IV. Decision** | Lógica Booleana | `04_conditionals.py` | Estruturas `if/elif/else` e operadores lógicos. |
+| **V. Automation** | Eficiência/Ciclos | `05_loops_and_iteration.py` | Laços de repetição `for` e `while`. |
+| **VI. Modularization** | Reuso de Código | `06_functions_and_scope.py` | Definição de funções, argumentos e escopo de variáveis. |
+
+---
+
+## 🗺️ Mapa Mental de Fundamentos
+
+Para visualizar como esses conceitos se conectam na construção de um software, utilizamos a seguinte lógica:
+
+```
+mermaid
 mindmap
   root((Python Fundamentals))
     Variables and Types
@@ -24,22 +41,6 @@ mindmap
       ::icon(fa fa-play)
       Input/Output: input, print
       Logic: and, or, not
+```
 
-
-CONCEPTS CORRELATION
-
-|  Concepts  |    Project applications   | Information object |
-| ---------- | ------------------------- | ------------------ |
-|  Variables | use_name = "Mayara"       | Atribuicao ao dado |
-|  Lists     | users = []                | Colections storang |
-|  If/Else   | if age >= 18:             | Condiciona 
-|  While     | while active:             | 
-|  Fuctions  | def save_name():          |
-|
-
-Conceito,Aplicação no Projeto,Objetivo de Informação
-Variables,"user_name = ""Mayara""",Identificação única do dado.
-Lists,users = [],Armazenamento de coleções.
-If/Else,if age >= 18:,Filtragem e validação de dados.
-While,while active:,Manutenção de estado do sistema.
-Functions,def save_data():,Redução de redundância informativa.
+---
