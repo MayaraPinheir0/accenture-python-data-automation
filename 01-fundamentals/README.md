@@ -22,25 +22,34 @@ A estrutura abaixo reflete uma progressão lógica de aprendizado, organizada pa
 Para visualizar como esses conceitos se conectam na construção de um software, utilizamos a seguinte lógica:
 
 ```
-mermaid
 mindmap
   root((Python Fundamentals))
     Variables and Types
-      ::icon(fa fa-database)
       Primitive: int, float, str, bool
       Collections: lists, dicts
+      Example Usage
+        Strings for names
+        Integers for age
+        List of dictionaries (ontology)
     Control Flow
-      ::icon(fa fa-code-branch)
-      Conditionals: if, elif, else
-      Loops: for, while
+      Conditionals
+        if, elif, else
+        Validation: isdigit()
+      Loops
+        while loop (interface)
+        for loop (report)
     Modularization
-      ::icon(fa fa-box)
-      Functions: def, args, returns
-      Scope: local vs global
+      Functions
+        def, arguments, return
+        Encapsulation: Add Entry logic
+      Scope
+        local vs global
     Execution
-      ::icon(fa fa-play)
-      Input/Output: input, print
-      Logic: and, or, not
+      Input/Output
+        input()
+        print()
+      Logic Operators
+        and, or, not
 ```
 
 ---
