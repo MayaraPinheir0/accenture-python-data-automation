@@ -1,44 +1,61 @@
-# accenture-python-data-automation
-This repository is for studying and projects in Python with a focus on Data Analysis and Automation. There is a Bootcamp in Accenture/DIO.
+# Accenture Python: Data Analysis & Automation 🚀
 
-The content are organized in the six parts. It's I. Atoms, II. Data Types, III. Colletions, IV. Decision Making, V. Automation of Tasks and VI. Modularization. 
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-I.Atoms (Sintaxe e Variáveis)
-File: 01_syntax_and_variables.py
+Este repositório centraliza meus estudos e projetos desenvolvidos durante o **Bootcamp Accenture/DIO**. O foco principal é a transição da lógica de programação fundamental para a automação de processos e análise de dados escalável.
 
-Concept: How the computer stores information. 
+---
 
-What to include: Atribuição de valores, nomes de variáveis (semântica) e funções básicas como print() e input().
+## 🧠 Arquitetura do Conhecimento (Fundamentals)
 
-II. Data Types (A Natureza do Dado)
-Arquivo: 02_data_types.py
+A estrutura abaixo reflete uma progressão lógica de aprendizado, organizada para garantir a compreensão da **Carga Cognitiva** necessária para dominar o Python.
 
-Conceito: A diferença entre um número (cálculo) e uma string (texto).
+### 📍 Fase 01: Os Pilares
 
-O que incluir: int, float, str e a conversão de tipos (type casting).
+| Módulo | Conceito Chave | Arquivo | Conteúdo Técnico |
+| :--- | :--- | :--- | :--- |
+| **I. Atoms** | Armazenamento de Info | `01_syntax_and_variables.py` | Sintaxe, semântica de variáveis, `print()` e `input()`. |
+| **II. Data Types** | Natureza do Dado | `02_data_types.py` | Casting de tipos, Strings, Integers e Floats. |
+| **III. Collections** | Agrupamento | `03_lists_and_sequences.py` | Listas, manipulação de índices e métodos (append/remove). |
+| **IV. Decision** | Lógica Booleana | `04_conditionals.py` | Estruturas `if/elif/else` e operadores lógicos. |
+| **V. Automation** | Eficiência/Ciclos | `05_loops_and_iteration.py` | Laços de repetição `for` e `while`. |
+| **VI. Modularization** | Reuso de Código | `06_functions_and_scope.py` | Definição de funções, argumentos e escopo de variáveis. |
 
-III. Collections (Agrupamento de Informação)
-Arquivo: 03_lists_and_sequences.py
+---
 
-Conceito: Como gerenciar múltiplos dados em uma única variável.
+## 🗺️ Mapa Mental de Fundamentos
 
-O que incluir: Criação de listas, acesso por índice e métodos básicos (append, remove).
+Para visualizar como esses conceitos se conectam na construção de um software, utilizamos a seguinte lógica:
 
-IV. Decision Making (Estruturas de Controle)
-Arquivo: 04_conditionals.py
+```mermaid
+mindmap
+  root((Python Fundamentals))
+    Data Layer
+      Variables
+      Types (Int, Str, Float)
+      Lists & Dicts
+    Logic Layer
+      Conditionals
+      Logical Operators
+    Process Layer
+      Loops (For/While)
+      Functions & Scope
 
-Conceito: Como o programa toma decisões (Lógica de Boole).
+---
 
-O que incluir: if, elif, else e operadores lógicos (and, or, not).
+## 🛠️ Technologies and Tools
 
-V. Automation of Tasks (Loops)
-Arquivo: 05_loops_and_iteration.py
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
+---
 
-Conceito: Eficiência. Como repetir tarefas sem repetir código.
+## 🎓 About the Bootcamp
 
-O que incluir: for (para sequências conhecidas) e while (para condições dinâmicas).
+An intensive program focused on preparing talent for **Accenture's** technology challenges, covering everything from pure logic to automation for large data volumes.
 
-VI. Modularization (Funções)
-Arquivo: 06_functions_and_scope.py
+---
 
-Conceito: Empacotamento de lógica para reuso. É o ápice dos fundamentos.
+### Developed by [Mayara Pinheiro](https://github.com/MayaraPinheir0) 👩‍💻
+*Computer Science Student - **Uniamérica***
