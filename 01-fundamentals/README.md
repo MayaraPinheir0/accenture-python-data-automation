@@ -22,34 +22,59 @@ A estrutura abaixo reflete uma progressão lógica de aprendizado, organizada pa
 Para visualizar como esses conceitos se conectam na construção de um software, utilizamos a seguinte lógica:
 
 ```
-mindmap
-  root((Python Fundamentals))
-    Variables and Types
-      Primitive: int, float, str, bool
-      Collections: lists, dicts
-      Example Usage
-        Strings for names
-        Integers for age
-        List of dictionaries (ontology)
-    Control Flow
-      Conditionals
-        if, elif, else
-        Validation: isdigit()
-      Loops
-        while loop (interface)
-        for loop (report)
-    Modularization
-      Functions
-        def, arguments, return
-        Encapsulation: Add Entry logic
-      Scope
-        local vs global
-    Execution
-      Input/Output
-        input()
-        print()
-      Logic Operators
-        and, or, not
+flowchart TD
+    A[Python Fundamentals]
+
+    A --> B[Variables and Types]
+    A --> C[Control Flow]
+    A --> D[Modularization]
+    A --> E[Execution]
+
+    %% Variables and Types
+    B --> B1[Primitive Types]
+    B1 --> B1a[int]
+    B1 --> B1b[float]
+    B1 --> B1c[str]
+    B1 --> B1d[bool]
+
+    B --> B2[Collections]
+    B2 --> B2a[lists]
+    B2 --> B2b[dicts]
+
+    B --> B3[Examples]
+    B3 --> B3a[Names → strings]
+    B3 --> B3b[Age → integers]
+    B3 --> B3c[List of dictionaries]
+
+    %% Control Flow
+    C --> C1[Conditionals]
+    C1 --> C1a[if / elif / else]
+    C1 --> C1b[Validation: isdigit()]
+
+    C --> C2[Loops]
+    C2 --> C2a[while → interface]
+    C2 --> C2b[for → report]
+
+    %% Modularization
+    D --> D1[Functions]
+    D1 --> D1a[def]
+    D1 --> D1b[arguments]
+    D1 --> D1c[return]
+    D1 --> D1d[Encapsulation: Add Entry]
+
+    D --> D2[Scope]
+    D2 --> D2a[local]
+    D2 --> D2b[global]
+
+    %% Execution
+    E --> E1[Input/Output]
+    E1 --> E1a[input()]
+    E1 --> E1b[print()]
+
+    E --> E2[Logic Operators]
+    E2 --> E2a[and]
+    E2 --> E2b[or]
+    E2 --> E2c[not]
 ```
 
 ---
