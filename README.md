@@ -28,7 +28,8 @@ A estrutura abaixo reflete uma progressão lógica de aprendizado, organizada pa
 
 Para visualizar como esses conceitos se conectam na construção de um software, utilizamos a seguinte lógica:
 
-```mermaid
+```
+mermaid
 mindmap
   root((Python Fundamentals))
     Data Layer
@@ -41,14 +42,18 @@ mindmap
     Process Layer
       Loops (For/While)
       Functions & Scope
+```
 
 ---
 
 ## 🛠️ Technologies and Tools
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
+
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 ---
 
 ## 🎓 About the Bootcamp
